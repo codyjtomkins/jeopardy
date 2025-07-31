@@ -1,0 +1,23 @@
+@use '../../../assets/colors.scss' as colors;
+
+.tile-card {
+  background-color: colors.$primary;
+  color: colors.$text;
+  font-size: 2vw;
+  height: 175px;
+  line-height: 2vw;
+  text-align: center;
+}
+
+.title {
+  margin: auto;
+}
+
+.display {
+  height: 100%;
+  align-content: center;
+}
+
+.display:hover {
+  cursor: pointer;
+}

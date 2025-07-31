@@ -1,0 +1,12 @@
+<div class="game-board">
+  @for(column of columns(); track column) {
+    <div class="column">
+        <app-tile [display]="column.title"></app-tile>
+        @for(content of column.content; track content) {
+          <app-tile [display]="content.value.toString()" [content]="content" (outputContent)="openQuestion($event)"></app-tile>
+        }
+      </div>
+  }
+</div>
+
+<app-questions [content]="currentContent()"></app-questions>

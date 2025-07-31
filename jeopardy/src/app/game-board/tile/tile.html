@@ -1,0 +1,12 @@
+<mat-card class="tile-card noselect">
+  @if(content() && !content()?.done()) {
+    <div class="display" (click)="onClick(content())">
+      {{display() | uppercase}}
+    </div>
+  } @else if(!content()) {
+    <div class="title">
+      {{display() | uppercase}}
+    </div>
+  }
+</mat-card>
+
