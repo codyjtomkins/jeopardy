@@ -1,0 +1,244 @@
+[
+    {
+        "title": "Twins Legends",
+        "content": [
+            {
+                "id": "1a",
+                "value": 1,
+                "question": "TwinsLegend1.png",
+                "type": "image",
+                "answer": "Jose Berrios"
+            },
+            {
+                "id": "1b",
+                "value": 2,
+                "question": "TwinsLegend2.png",
+                "type": "image",
+                "answer": "Caleb Thielbar"
+            },
+            {
+                "id": "1c",
+                "value": 3,
+                "question": "TwinsLegend3.png",
+                "type": "image",
+                "answer": "A.J. Pierzynski"
+            },
+            {
+                "id": "1d",
+                "value": 4,
+                "question": "TwinsLegend4.png",
+                "type": "image",
+                "answer": "Jason Castro"
+            },
+            {
+                "id": "1e",
+                "value": 5,
+                "question": "TwinsLegend5.png",
+                "type": "image",
+                "answer": "Tommy Milone"
+            }
+        ]
+    },
+    {
+        "title": "Top 3 in Cy Young Voting",
+        "content": [
+            {
+                "id": "2a",
+                "value": 1,
+                "question": "Top3CyYoung1.png",
+                "type": "image",
+                "answer": "Jon Lester"
+            },
+            {
+                "id": "2b",
+                "value": 2,
+                "question": "Top3CyYoung2.png",
+                "type": "image",
+                "answer": "Lance Lynn"
+            },
+            {
+                "id": "2c",
+                "value": 3,
+                "question": "Top3CyYoung3.png",
+                "type": "image",
+                "answer": "Johnny Cueto"
+            },
+            {
+                "id": "2d",
+                "value": 4,
+                "question": "Top3CyYoung4.png",
+                "type": "image",
+                "width": "1975",
+                "height": "237",
+                "answer": "Alec Manoah"
+            },
+            {
+                "id": "2e",
+                "value": 5,
+                "question": "Top3CyYoung5.png",
+                "type": "image",
+                "answer": "Hyun Jin Ryu"
+            }
+        ]
+    },
+    {
+        "title": "Mvp Runner ups who never won",
+        "content": [
+            {
+                "id": "3a",
+                "value": 1,
+                "question": "Top2MVP1.png",
+                "type": "image",
+                "answer": "Alex Bregman"
+            },
+            {
+                "id": "3b",
+                "value": 2,
+                "question": "Top2MVP2.png",
+                "type": "image",
+                "answer": "Matt Kemp"
+            },
+            {
+                "id": "3c",
+                "value": 3,
+                "question": "Top2MVP3.png",
+                "type": "image",
+                "answer": "Daniel Murphy"
+            },
+            {
+                "id": "3d",
+                "value": 4,
+                "question": "Top2MVP4.png",
+                "type": "image",
+                "answer": "Victor Martinez"
+            },
+            {
+                "id": "3e",
+                "value": 5,
+                "question": "Top2MVP5.png",
+                "type": "image",
+                "answer": "Magglio Ordonez"
+            }
+        ]
+    },
+    {
+        "title": "30 war before 30",
+        "content": [
+            {
+                "id": "4a",
+                "value": 1,
+                "question": "30Under30-1.png",
+                "type": "image",
+                "answer": "Carlos Correa"
+            },
+            {
+                "id": "4b",
+                "value": 2,
+                "question": "30Under30-2.png",
+                "type": "image",
+                "answer": "Evan Longoria"
+            },
+            {
+                "id": "4c",
+                "value": 3,
+                "question": "30Under30-3.png",
+                "type": "image",
+                "answer": "Mike Piazza"
+            },
+            {
+                "id": "4d",
+                "value": 4,
+                "question": "30Under30-4.png",
+                "type": "image",
+                "answer": "Rafael Furcal"
+            },
+            {
+                "id": "4e",
+                "value": 5,
+                "question": "30Under30-5.png",
+                "type": "image",
+                "answer": "Fernando Valenzuela"
+            }
+        ]
+    },
+    {
+        "title": "He was on that ws team?",
+        "content": [
+            {
+                "id": "5a",
+                "value": 1,
+                "question": "Champion2.png",
+                "type": "image",
+                "answer": "Ian Kinsler"
+            },
+            {
+                "id": "5b",
+                "value": 2,
+                "question": "Champion3.png",
+                "type": "image",
+                "answer": "Kevin Kiermaier"
+            },
+            {
+                "id": "5c",
+                "value": 3,
+                "question": "Champion4.png",
+                "type": "image",
+                "answer": "Francisco Liriano"
+            },
+            {
+                "id": "5d",
+                "value": 4,
+                "question": "Champion5.png",
+                "type": "image",
+                "answer": "Edwin Jackson"
+            },
+            {
+                "id": "5e",
+                "value": 5,
+                "question": "Champion6.png",
+                "type": "image",
+                "answer": "Terrence Gore"
+            }
+        ]
+    },
+    {
+        "title": "Bad Return on Investment",
+        "content": [
+            {
+                "id": "6a",
+                "value": 1,
+                "question": "BadReturn1.png",
+                "type": "image",
+                "answer": "Anthony Rendon"
+            },
+            {
+                "id": "6b",
+                "value": 2,
+                "question": "BadReturn2.png",
+                "type": "image",
+                "answer": "Madison Bumgarner"
+            },
+            {
+                "id": "6c",
+                "value": 3,
+                "question": "BadReturn3.png",
+                "type": "image",
+                "answer": "Jordan Zimmerman"
+            },
+            {
+                "id": "6d",
+                "value": 4,
+                "question": "BadReturn4.png",
+                "type": "image",
+                "answer": "B.J. Upton"
+            },
+            {
+                "id": "6e",
+                "value": 5,
+                "question": "BadReturn5.png",
+                "type": "image",
+                "answer": "Bobby Bonilla"
+            }
+        ]
+    }
+]

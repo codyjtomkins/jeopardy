@@ -2,13 +2,15 @@ import { computed, inject, InjectionToken, signal } from '@angular/core';
 import { patchState, signalStore, withComputed, withHooks, withMethods, withState } from '@ngrx/signals';
 import { Column } from '../model/models';
 import { GameService } from '../service/game-service';
-import { first, tap } from 'rxjs';
+import { tap } from 'rxjs';
 
 type GameState = {
+  gameName: string
   columns: Column[]
 }
 
 const initialState: GameState = {
+  gameName: '',
   columns: []
 }
 
@@ -31,14 +33,12 @@ export const GameStore = signalStore(
         })
       ).subscribe()
     },
-    updateDone(id: string) {
-
-      patchState(store)
+    setGameName(gameName: string) {
+      patchState(store, {gameName})
+      this.getGame(store.gameName())
     }
   })),
   withHooks({
-    onInit(store) {
-      store.getGame('game1.json')
-    }
+
   })
 )

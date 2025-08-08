@@ -10,7 +10,7 @@ export class GameService {
   httpClient = inject(HttpClient)
 
   getGame(fileName: string): Observable<Column[]> {
-    return this.httpClient.get(`/game-lists/${fileName}`).pipe(
+    return this.httpClient.get(`/game-lists/${fileName}/${fileName}.json`).pipe(
       map((data) => data as Column[])
     )
   }

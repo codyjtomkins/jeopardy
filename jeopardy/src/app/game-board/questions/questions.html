@@ -1,3 +1,17 @@
-<mat-dialog-container #dialog>
-  <div matDialogTitle>Title</div>
-</mat-dialog-container>
+<mat-dialog-content class="container">
+  <div class="content">
+    @if(shownContent() === 'question') {
+      @if(data.content.type === 'image') {
+        <img [ngClass]="{'custom-image': data.content.width && data.content.height, 'image': !(data.content.width && data.content.height)}"
+             [ngSrc]="imageLocation() || ''"
+             [width]="data.content.width ? data.content.width/2 : '1282'"
+             [height]="data.content.height ? data.content.height/2 : '247'"
+        >
+      } @else {
+        {{data.content.question | uppercase}}
+      }
+    } @else {
+      {{data.content.answer | uppercase}}
+    }
+  </div>
+</mat-dialog-content>

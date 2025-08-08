@@ -32,6 +32,10 @@ html {
 html, body { height: 100%; }
 body { margin: 0; font-family: 'ITC Korinna Std', sans-serif; }
 
+.mat-mdc-dialog-container .mat-mdc-dialog-content {
+  font-family: 'ITC Korinna Std', sans-serif !important; /* Apply to the container */
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
