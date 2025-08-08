@@ -31,7 +31,7 @@ export class GameBoard implements OnInit {
   dialog = inject(MatDialog)
 
   ngOnInit(): void {
-    this.store.setGameName('game1')
+    this.store.setGameName('jerrysgame')
   }
 
   openQuestion(content: TileContent | undefined) {
